@@ -1,0 +1,174 @@
+
+/* Reset some default styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.WallBack{
+
+    background-color: rgb(0, 0, 0);
+    background-image: url("..C:\Users\Digit\source\repos\CSharpBootcamp_June2022_AH\HTML_CSS\matrixRain.jpg");
+    color: chartreuse;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #D3D3D3; /* Light gray text */
+}
+
+/* Header styling */
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: chartreuse; /* Chartreuse text color */
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #D3D3D3;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: chartreuse;
+}
+
+/* Profile image styling */
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid chartreuse;
+}
+
+/* About Me section styling */
+.container {
+    padding: 30px;
+}
+
+/* Contact Information styling */
+.contact-info {
+    background-color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.contact-link {
+    margin: 10px 0;
+}
+
+.contact-link a {
+    color: chartreuse;
+}
+
+.contact-link a:hover {
+    text-decoration: underline;
+}
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #D3D3D3; /* Light gray text */
+}
+
+/* Header styling */
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: chartreuse; /* Chartreuse text color */
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #D3D3D3;
+    transition: color 0.3s;
+    background-color: gray; /* Gray background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: chartreuse;
+}
+
+/* Profile image styling */
+.profile-image {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed to move the image closer to the top */
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 250px; /* Increase the size as needed */
+    height: 250px; /* Increase the size as needed */
+}
+
+/* Matrix Rain styling */
+.matrixRain {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed to control the spacing between the image and text */
+}
+
+.matrix-pic {
+    width: 50%; /* Decrease the size by half */
+    height: auto;
+}

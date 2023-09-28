@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael D. Swope - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <div class="header">
+        <h1>Michael D. Swope</h1>
+        <p class="subtitle">Junior Full Stack Developer | Tech Enthusiast</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li class="nav-item"><a class="nav-link button" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link button" href="https://www.linkedin.com/in/michaeldswope/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bh0ibe95OSeqdT6aI5CC%2BOA%3D%3D" target="_blank">LinkedIn</a></li>
+            <li class="nav-item"><a class="nav-link button" href="C:\Users\Digit\Michael%20Swope%20resume.docx" download>Resume</a></li>
+            <li class="nav-item"><a class="nav-link button" href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Contact Information -->
+    <div class="Contact">
+        <h1>Contact Information</h1>
+        <p class="subtitle">Phone: (121) 444-1243 | E-Mail: digitalwhiterabbithole@gmail.com</p>
+    </div>
+    
+    <!-- Profile image section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 profile-image">
+                <img src="pictures/Screenshot_20230927_154753_LinkedIn.jpg" alt="Michael D. Swope">
+            </div>
+            <div class="col-md-8">
+                <h2>About Me:</h2>
+                <p>
+                    Welcome to my personal website! I'm a Junior Fullstack developer in training with a passion for technology and innovation. Feel free to explore and get in touch with me through the contact details below.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Matrix Rain section -->
+    <div class="matrixRain">
+        <img src="pictures/matrixRain.jpg" alt="matrixRain">
+    </div>
+
+    <!-- Include the Google Maps API script and map container -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <div id="map"></div>
+    
+    <!-- Add the JavaScript for the Google Maps API -->
+    <script>
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: YOUR_LATITUDE, lng: YOUR_LONGITUDE }, // Replace with your hometown's coordinates
+                zoom: 12 // Adjust the zoom level as needed
+            });
+        }
+    </script>
+
+</body>
+</html>
